@@ -1,58 +1,86 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<a class="chip" href="https://github.com/your-user" target="_blank" rel="noopener" aria-label="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+        aria-hidden="true">
+        <path
+            d="M12 .5A12 12 0 000 12.7c0 5.4 3.4 10 8.2 11.6.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 2.9 2.3.6-.5 1-.8 1.2-1.3-2.6-.3-5.2-1.4-5.2-6.2 0-1.4.5-2.6 1.2-3.6-.1-.3-.6-1.7.1-3.5 0 0 1-.3 3.4 1.3a11.4 11.4 0 016.2 0C16.9 5.3 18 5.7 18 5.7c.7 1.8.2 3.2.1 3.5.8 1 1.2 2.2 1.2 3.6 0 4.8-2.6 5.9-5.2 6.2.4.3.8.9.8 1.9v2.8c0 .3.2.7.8.6C20.6 22.7 24 18 24 12.7A12 12 0 0012 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+<a class="chip" href="https://www.linkedin.com/in/your-user" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+        aria-hidden="true">
+        <path
+            d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1C12.6 8.8 14 8 16 8c4.3 0 5.1 2.8 5.1 6.4V24h-4v-7.3c0-1.7 0-4-2.5-4s-2.9 1.9-2.9 3.9V24h-4V8z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+<button class="chip" id="copyEmail" title="Copiar email">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+        aria-hidden="true">
+        <path d="M16 1H4C2.9 1 2 1.9 2 3v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM4 15V3h12v12H4z" />
+        <path d="M20 5h-2v12H6v2c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2z" />
+    </svg>
+    <span id="emailLabel">tu.email@ejemplo.com</span>
+</button>
+</div>
+</div>
+</div>
+</section>
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Mi plantilla</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-
-<body>
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
-                <h2 style="color: #ffffff; padding-top: 20px;">Mi curso de Git y Github</h2>
+<!-- ====== PROYECTOS ====== -->
+<section id="proyectos" aria-labelledby="projects-title">
+    <h2 class="section-title" id="projects-title">Proyectos</h2>
+    <div class="grid">
+        <article class="project" aria-label="Proyecto 1">
+            <div class="thumb">16:10</div>
+            <div class="body">
+                <h3>Nombre del proyecto</h3>
+                <p>Descripción breve del proyecto. Enlace a demo y código.</p>
             </div>
-    </div>
-    </div>
-
-
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://platzi.com/cursos/docker-fundamentos/'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Mi curso de Docker</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='http://aminespinoza.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mi sitio web</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/aminespinoza/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/aminespinoza10/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Instagram</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/aminespinoza'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
+        </article>
+        <article class="project" aria-label="Proyecto 2">
+            <div class="thumb">16:10</div>
+            <div class="body">
+                <h3>Nombre del proyecto</h3>
+                <p>Descripción breve del proyecto. Enlace a demo y código.</p>
             </div>
+        </article>
+        <article class="project" aria-label="Proyecto 3">
+            <div class="thumb">16:10</div>
+            <div class="body">
+                <h3>Nombre del proyecto</h3>
+                <p>Descripción breve del proyecto. Enlace a demo y código.</p>
+            </div>
+        </article>
     </div>
-    </div>
+</section>
 
-        <div class="text-center">
-            <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">Creado por OrderMerch</a>
+
+<!-- ====== CONTACTO ====== -->
+<section id="contacto" aria-labelledby="contact-title">
+    <h2 class="section-title" id="contact-title">Contacto</h2>
+    <div class="contact">
+        <div class="card">
+            <p class="muted">¿Tienes una idea o proyecto?</p>
+            <p>Escríbeme y conversemos sobre cómo construirlo con intención y claridad.</p>
+            <p><a class="btn" href="mailto:tu.email@ejemplo.com">Enviar correo</a></p>
         </div>
+        <div class="card">
+            <p class="muted">Disponibilidad</p>
+            <p>Abierto a propuestas freelance y colaboraciones. Respondo en 24–48h.</p>
+        </div>
+    </div>
+</section>
+</main>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+<footer>
+    <div class="container">
+        <p>© <span id="year"></span> Abraham Yance. Minimalismo, detalle y propósito.</p>
+    </div>
+</footer>
 </body>
 
 </html>
